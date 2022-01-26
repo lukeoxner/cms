@@ -1,0 +1,20 @@
+.navbar {
+	background-color: #700000;
+}
+
+.navbar-brand {
+	color: white;
+}
+
+.nav-link {
+	color: white;
+}
+
+.nav-link:hover {
+	color: lightslategrey;
+}
+
+.nav-link:focus {
+	color: white;
+	font-weight: 700;
+}
