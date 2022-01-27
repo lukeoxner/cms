@@ -3,21 +3,21 @@
 }
 
 .nav-link {
-	color: white;
+	color: white !important;
 }
 
 .nav-link:hover {
-	color: #bababa;
+	color: #bababa !important;
 }
 
 .nav-link:focus {
-	color: white;
-	font-weight: 700;
+	color: white !important;
+	font-weight: 700 !important;
 }
 
 .hero-image {
-	height: 700px;
-	background-image: url('assets/datsun-hero.png');
+	height: 400px;
+	background-image: url('assets/utah-datsuns.jpeg');
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -25,14 +25,15 @@
 }
 
 .hero-text {
+	width: 90%;
 	text-align: center;
 	position: absolute;
-	top: 20%;
-	left: 25%;
+	top: 25%;
+	left: 50%;
 	transform: translate(-50%, -50%);
 	color: black;
 	font-family: 'Catamaran', sans-serif;
 	font-weight: 900;
 	font-style: italic;
-	font-size: 48px;
+	font-size: 65px;
 }
