@@ -14,7 +14,8 @@
 	color: #bababa !important;
 }
 
-.nav-link:focus {
+.nav-link:focus,
+.active {
 	color: white !important;
 	font-weight: 700 !important;
 }
