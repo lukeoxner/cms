@@ -39,7 +39,7 @@
 	font-family: 'Catamaran', sans-serif;
 	font-weight: 900;
 	font-style: italic;
-	font-size: 65px;
+	font-size: 60px;
 }
 
 @media only screen and (max-width: 600px) {
@@ -49,10 +49,22 @@
 
 	.hero-text {
 		font-size: 20px;
-		font-weight: 600;
+		font-weight: 700;
 	}
 
 	#navbar-img {
 		height: 30px;
+	}
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 601px) and (max-width: 900px) {
+	.hero-text {
+		font-size: 40px;
+		font-weight: 800;
+	}
+
+	#navbar-img {
+		height: 40px;
 	}
 }
