@@ -49,6 +49,7 @@
 
 .home-intro-img {
 	border-radius: 50%;
+	box-shadow: 3px 3px 10px darkgrey;
 }
 
 @media only screen and (max-width: 600px) {
