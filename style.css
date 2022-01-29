@@ -8,6 +8,8 @@
 
 .nav-link {
 	color: white !important;
+	font-family: 'Catamaran', sans-serif !important;
+	font-weight: 500 !important;
 }
 
 .nav-link:hover {
@@ -44,7 +46,11 @@
 }
 
 .home-intro-text {
-	font-size: 24px;
+	font-size: 44px;
+	font-family: 'Catamaran', sans-serif;
+	font-weight: 700;
+	/* font-style: italic; */
+	text-align: center;
 }
 
 .home-intro-img {
@@ -54,9 +60,30 @@
 .btn {
 	background-color: #700000;
 	color: white;
+	font-family: 'Catamaran', sans-serif;
+	font-weight: 600;
+	font-style: italic;
+}
+
+.btn-intro {
+	width: 150px;
+	height: 50px;
 }
 
 .btn:hover {
+	color: #bababa !important;
+}
+
+.intro-link {
+	color: white;
+	text-decoration: none;
+	font-family: 'Catamaran', sans-serif;
+	font-weight: 600;
+	font-style: italic;
+	font-size: 20px;
+}
+
+.intro-link:hover {
 	color: #bababa !important;
 }
 
