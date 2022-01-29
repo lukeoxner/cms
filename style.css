@@ -22,6 +22,23 @@
 	font-weight: 700 !important;
 }
 
+.footer {
+	color: white;
+}
+
+.footer-plug {
+	font-size: 14px;
+}
+.footer-link {
+	color: white;
+	font-weight: 500;
+	text-decoration-thickness: 5%;
+}
+
+.footer-link:hover {
+	color: #bababa;
+}
+
 .hero-image {
 	height: 400px;
 	background-image: url('assets/utah-datsuns.jpg');
