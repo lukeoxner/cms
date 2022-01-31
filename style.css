@@ -123,8 +123,22 @@
 		height: 30px;
 	}
 
-	.intro-col {
+	.home-intro-container {
+		margin-left: 0px !important;
+		margin-right: 0px !important;
+	}
+
+	.home-intro-col {
 		margin-left: 0px;
+	}
+
+	.home-intro-text {
+		font-size: 20px;
+	}
+
+	.home-intro-img {
+		height: 350px;
+		margin-top: 40px !important;
 	}
 }
 
@@ -146,7 +160,7 @@
 		height: 300px;
 	}
 
-	.intro-col {
+	.home-intro-col {
 		margin-left: 0px;
 	}
 }
