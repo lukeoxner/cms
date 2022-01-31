@@ -105,6 +105,10 @@
 	color: #bababa !important;
 }
 
+.intro-col {
+	margin-left: 50px;
+}
+
 @media only screen and (max-width: 600px) {
 	.hero-image {
 		height: 200px;
@@ -118,6 +122,10 @@
 	#navbar-img {
 		height: 30px;
 	}
+
+	.intro-col {
+		margin-left: 0px;
+	}
 }
 
 @media only screen and (min-width: 601px) and (max-width: 900px) {
@@ -128,5 +136,17 @@
 
 	#navbar-img {
 		height: 40px;
+	}
+
+	.home-intro-text {
+		font-size: 28px;
+	}
+
+	.home-intro-img {
+		height: 300px;
+	}
+
+	.intro-col {
+		margin-left: 0px;
 	}
 }
