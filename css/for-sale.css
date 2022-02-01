@@ -2,10 +2,47 @@ p {
 	font-size: 18px;
 }
 
+hr {
+	border-style: solid;
+	border-width: 2px;
+	border-color: #700000;
+	opacity: 100%;
+}
+
 .heading {
 	font-family: 'Catamaran', sans-serif;
 	font-weight: 800;
 	font-size: 45px;
 	font-style: italic;
 	color: #700000;
+}
+
+.item-name {
+	font-weight: 600;
+	font-size: 30px;
+}
+
+.item-price {
+	font-weight: 700;
+	font-size: 25px;
+	color: #700000;
+}
+
+.item-thumbnail {
+	height: 200px;
+	border-color: #700000;
+	border-style: solid;
+	border-width: 3px;
+	border-radius: 15px;
+	margin-left: 10px;
+}
+
+@media only screen and (max-width: 600px) {
+	p {
+		font-size: 14px;
+	}
+
+	.heading {
+		font-size: 30px;
+	}
 }
