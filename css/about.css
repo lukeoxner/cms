@@ -1,3 +1,14 @@
+p {
+	font-size: 18px;
+}
+
+hr {
+	border-style: solid;
+	border-width: 2px;
+	border-color: #a00000;
+	opacity: 100%;
+}
+
 .top-page-logo {
-	height: 400px;
+	height: 200px;
 }
