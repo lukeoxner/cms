@@ -44,6 +44,14 @@ hr {
 	margin-bottom: 5px;
 }
 
+.teammate-number {
+	font-family: 'Catamaran', sans-serif;
+	font-weight: 700;
+	font-size: 30px;
+	font-style: italic;
+	margin-bottom: 5px;
+}
+
 .teammate-title {
 	font-family: 'Catamaran', sans-serif;
 	font-weight: 600;
