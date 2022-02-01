@@ -32,6 +32,7 @@ hr {
 .headshot {
 	border-radius: 50%;
 	margin-bottom: 10px;
+	height: 200px;
 }
 
 .teammate-name {
