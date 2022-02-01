@@ -1,0 +1,11 @@
+p {
+	font-size: 18px;
+}
+
+.heading {
+	font-family: 'Catamaran', sans-serif;
+	font-weight: 800;
+	font-size: 45px;
+	font-style: italic;
+	color: #700000;
+}
