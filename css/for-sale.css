@@ -45,4 +45,20 @@ hr {
 	.heading {
 		font-size: 30px;
 	}
+
+	.item-thumbnail {
+		margin-bottom: 10px;
+	}
+
+	.item-name {
+		font-size: 20px;
+		text-align: center;
+	}
+	.item-price {
+		text-align: center;
+	}
+
+	.item-description {
+		text-align: center;
+	}
 }
