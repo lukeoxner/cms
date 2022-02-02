@@ -110,3 +110,15 @@
 		margin-left: 0px;
 	}
 }
+
+@media only screen and (min-width: 1400px) and (max-width: 1799px) {
+	.hero-image {
+		height: 500px;
+	}
+}
+
+@media only screen and (min-width: 1800px) {
+	.hero-image {
+		height: 700px;
+	}
+}
