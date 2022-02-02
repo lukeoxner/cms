@@ -37,7 +37,7 @@ hr {
 	margin-left: 10px;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 767px) {
 	p {
 		font-size: 14px;
 	}
@@ -48,6 +48,7 @@ hr {
 
 	.item-thumbnail {
 		margin-bottom: 10px;
+		height: 200px;
 	}
 
 	.item-name {
@@ -61,5 +62,23 @@ hr {
 
 	.item-description {
 		text-align: center;
+	}
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1399px) {
+	p {
+		font-size: 14px;
+	}
+	.item-name {
+		font-size: 20px;
+	}
+
+	.item-price {
+		font-size: 20px;
+	}
+
+	.item-thumbnail {
+		height: 140px;
+		margin-bottom: 10px;
 	}
 }
